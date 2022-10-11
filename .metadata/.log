@@ -1444,3 +1444,13 @@ java.lang.IllegalArgumentException: Index out of bounds
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-10-11 22:23:24.542
+!MESSAGE An exception occurred during push on URI https://github.com/AttiqueAnwar/Java-Programming.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:243)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog.dryRun(SimpleConfigurePushDialog.java:324)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
