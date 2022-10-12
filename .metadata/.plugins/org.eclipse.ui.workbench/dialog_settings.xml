@@ -18,11 +18,11 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.egit.ui.command.shareProject(org.eclipse.egit.ui.command.projectNameParameter=Scanner)"/>
+			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
 			<item value="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
@@ -30,7 +30,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="share project"/>
+			<item value="proje"/>
 			<item value="termin"/>
 		</list>
 	</section>
